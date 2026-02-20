@@ -21,12 +21,16 @@ footer p {
 header {
     margin: 0;
     padding: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: center;
+    background-color: #6b8d1f;
 }
 
 header span {
-    font-size: 0.75em;
-    color: #703843;
+    font-size: 2em;
+    color: #f9f0f3;
+    font-family: "Sansita Swashed";
 }
 
 /* Nav Stuff */
@@ -148,24 +152,19 @@ dl dd {
 }
 
 
-button {
+.button {
     border-style: solid;
     border-color: #993400;
     border-width: 5px;
     background-color: #993400;
     border-radius: 5px;
-}
-
-button a {
     font-size: 1.5em;
     color: #f9f0f3;
+    padding: 0.25em;
 }
 
-button:hover {
-    background-color: #f9f0f3;
-}
 
-button a:hover {
+.button:hover {
     color: #993400;
     background-color: #f9f0f3;
 }
@@ -174,7 +173,9 @@ button a:hover {
 
 /* HOME Page SPECIFIC Styling */
 #hometitle {
-    display: none;
+    font-size: 12em;
+    padding: 0;
+    margin: 0;
 }
 
 #tagline {
