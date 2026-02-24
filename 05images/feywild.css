@@ -58,7 +58,9 @@ nav a {
     color: #f9f0f3;
     padding: 1em;
 }
-
+nav a.active {
+    background-color: #703843;
+}
 nav a:hover {
     background-color: #f9f0f3;
     color: #993400;
@@ -73,6 +75,8 @@ a:hover {
     color: #f9f0f3;
     background-color: #993400;
 }
+
+
 
 /* main stuff, and onwards */
 main {
@@ -113,7 +117,8 @@ h4 {
 
 p {
     color: #703843;
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1.5em;
 }
 
 
@@ -196,7 +201,28 @@ dl dd {
     font-weight: 100;
     margin-bottom: 3em;
 }
+figure.wrapped {
+    float: left;
+width: 30%;
+margin: 0;
+margin-right: 1.5em;
+ margin-bottom: 3em;
+}
 
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 1em;
+    color: #44744c;
+    font-style: italic;
+}
+#homeworld {
+    clear: both;
+   
+}
 /* QUEST page SPECIFIC styling */
 
 #questdeal {
